@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#373737"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/memay_heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="12dp"
+        android:fontFamily="@font/julius_sans_one"
+        android:text="MEMAY NEWS"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20dp"/>
+
+
+    <ScrollView
+        android:id="@+id/scroll_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/memay_heading"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/scroll_back"
+        android:stateListAnimator="@null"
+        >
+<!-- dynamically code u r card view as per new post update instead of this button
+     this is only for show -->
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:stateListAnimator="@null"
+            android:text="post eg"/>
+
+    </ScrollView>
+
+
+
+
+    <com.ismaeldivita.chipnavigation.ChipNavigationBar
+        android:id="@+id/nav_bar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bottom_nav_back"
+        app:cnb_menuResource="@menu/bottom_menu"
+        app:cnb_radius="100dp"
+        app:cnb_unselectedColor="#FFF"
+        />
+
+    <!--<FrameLayout
+        android:id="@+id/fragment_tray"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_alignParentBottom="true"
+     />-->
+
+
+</RelativeLayout>

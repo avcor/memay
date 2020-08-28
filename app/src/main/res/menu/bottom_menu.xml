@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_politics"
+        android:icon="@drawable/politics"
+        android:title="politics"
+        app:cnb_backgroundColor="#FFA500"
+        app:cnb_iconColor="#000"
+        app:cnb_textColor="#000"
+        />
+    <item
+        android:id="@+id/menu_business"
+        android:icon="@drawable/graph"
+        android:title="business"
+        app:cnb_backgroundColor="#FFA500"
+        app:cnb_iconColor="#000"
+        app:cnb_textColor="#000"
+        />
+    <item
+        android:id="@+id/menu_entertainment"
+        android:icon="@drawable/cinema"
+        android:title="bollywood"
+        app:cnb_backgroundColor="#FFA500"
+        app:cnb_iconColor="#000"
+        app:cnb_textColor="#000"
+        />
+    <item
+        android:id="@+id/menu_technology"
+        android:icon="@drawable/brain"
+        android:title="tech"
+        app:cnb_backgroundColor="#FFA500"
+        app:cnb_iconColor="#000"
+        app:cnb_textColor="#000"
+        />
+    <item
+        android:id="@+id/menu_sports"
+        android:icon="@drawable/gym"
+        android:title="sports"
+        app:cnb_backgroundColor="#FFA500"
+        app:cnb_iconColor="#000"
+        app:cnb_textColor="#000"
+        />
+
+
+</menu>
